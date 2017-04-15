@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+  height: 100%;
+}
+body{
+	text-align: center;
+	background-image: url(./pic/background.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100% 100%;
+}
+title{
+	display: inline-block;
+	color: #fff;
+	font-size: 1.2rem;
+}
+.datas{
+	font-size: 1.4em;
+}
+.canvas{
+	margin: 0px auto;
+	display: inline-block;
+}
+.unlock{
+	position: absolute;
+	bottom: 150px;
+	width: 100%;
+}
+.timedate{
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+.times{
+	font-size: 5rem;
+	display: block;
+}
+.reset{
+	color: #fff;
+}
+.radio{
+	position: absolute;
+	bottom: 70px;
+	width: 100%;
+}
+.prompt{
+	position: absolute;
+	top: 180px;
+	width: 100%;
+}
+
+.slideOne {
+  width: 50px;
+  height: 10px;
+  background: #333;
+  margin: 20px auto;
+  position: relative;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+.slideOne label {
+  display: block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  cursor: pointer;
+  background: #fcfff4;
+  background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.slideOne input[type=checkbox] {
+  visibility: hidden;
+}
+.slideOne input[type=checkbox]:checked + label {
+  left: 37px;
+}
+@media screen and (max-width: 320px) {
+    .datas{
+      font-size: 1.2rem;
+    }
+    .times{
+      font-size: 3.5rem;
+    }
+    title{
+      font-size: 1rem;
+    }
+    .prompt{
+      top: 140px;
+    }
+    .unlock{
+      bottom: 100px;
+    }
+    .radio{
+      bottom: 40px;
+    }
+
+}
